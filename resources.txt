@@ -1,0 +1,12 @@
+GRAPH QL:
+- https://www.freecodecamp.org/news/how-to-use-typescript-with-graphql/
+- https://typegraphql.com/docs/0.17.5/installation.html
+- https://www.apollographql.com/docs/apollo-server/workflow/generate-types/
+
+REACT:
+
+
+REDUX:
+
+
+MATERIAL-UI

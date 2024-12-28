@@ -1,0 +1,20 @@
+type Item{
+    id: String!
+    name: String!
+    rate: Float!
+}
+
+input ItemInput{
+    name: String!
+    rate: String!
+}
+
+type Query{
+    getItems: [Item!]!
+    getItems(name:String): [Item!]!
+    getItem(id:String): Item!
+}
+
+type Mutation{
+    createItem(item: ItemInput!):Item!
+}
